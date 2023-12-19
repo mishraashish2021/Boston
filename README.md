@@ -20,7 +20,16 @@
  9. Task 3: Video Generation
         choose either FFmpeg or PHP-FFmpeg.
         Implement a basic command or API endpoint to process a sample video file.
-    for form the video url is http://127.0.0.1:8001/video/form 
+    for form the video url is http://127.0.0.1:8001/video/form
+
+ 10. For table Item use this query
+        CREATE TABLE items (
+            id INT PRIMARY KEY AUTO_INCREMENT,
+            title VARCHAR(255) NOT NULL,
+            description TEXT,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+        );   
     
       
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
