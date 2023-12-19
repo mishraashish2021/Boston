@@ -1,4 +1,4 @@
-<p align="center">
+<p align="center"> 
 1.composer install </br>
 2.Add database to env file</br>
 3.php artisan migrate</br>
