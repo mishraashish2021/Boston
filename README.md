@@ -17,19 +17,19 @@
        "title": "Zero to One",</br>
        "description": "Book by Blake Masters and Peter Thiel"</br>
       }</br>
- 9. Task 3: Video Generation
-        choose either FFmpeg or PHP-FFmpeg.
-        Implement a basic command or API endpoint to process a sample video file.
-    for form the video url is http://127.0.0.1:8001/video/form
+ 9. Task 3: Video Generation</br>
+        choose either FFmpeg or PHP-FFmpeg.</br>
+        Implement a basic command or API endpoint to process a sample video file.</br>
+    for form the video url is http://127.0.0.1:8001/video/form</br>
 
- 10. For table Item use this query
-        CREATE TABLE items (
-            id INT PRIMARY KEY AUTO_INCREMENT,
-            title VARCHAR(255) NOT NULL,
-            description TEXT,
-            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-            updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-        );   
+ 10. For table Item use this query</br>
+       CREATE TABLE items (</br>
+            id INT PRIMARY KEY AUTO_INCREMENT,</br>
+            title VARCHAR(255) NOT NULL,</br>
+            description TEXT,</br>
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,</br>
+            updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP</br>
+        );   </br>
     
       
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
