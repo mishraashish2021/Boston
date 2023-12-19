@@ -1,3 +1,24 @@
+1.composer install
+2.Add database to env file
+3.php artisan migrate
+4.php artisan serve
+5.http://127.0.0.1:8000
+6.Task 1
+  Implement a simple route that returns a "Hello, Laravel!" message. This can be get by http://127.0.0.1:8000 or http://127.0.0.1:8000/hellolaravel
+7.Task 2: RESTful API Development
+  1. Implement a minimal RESTful API for managing a collection of items (e.g., books, movies).
+  2. Include endpoints for retrieving all items and adding a new item.
+  You can access all items by using http://127.0.0.1:8000/api/items
+  and for adding or updating have to use post method e.g. for postman
+  from postman use url with post method http://127.0.0.1:8000/api/items and object wiil be
+  {
+   "title": "Zero to One",
+   "description": "Book by Blake Masters and Peter Thiel"
+  }
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
